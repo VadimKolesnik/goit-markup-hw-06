@@ -766,18 +766,34 @@ img {
 }
 
 .footer-button {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
   border-radius: 4px;
   margin-left: 24px;
-  cursor: pointer;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px 24px;
+  gap: 16px;
+
   color: var(--background-color);
   background-color: var(--ctas-links-color);
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  /* font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  width: 100px;
+  width: 264px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+.footer-button-icon {
+  fill: currentColor;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  background-color: var(--ctas-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Modal window styles */
