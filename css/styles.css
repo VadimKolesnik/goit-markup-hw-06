@@ -763,6 +763,7 @@ img {
   border-radius: 4px;
   background-color: var(--overlays-color);
   color: var(--background-color);
+  padding-left: 16px;
 }
 
 .footer-button {
