@@ -752,7 +752,7 @@ img {
   display: inline-block;
 }
 .footer-form {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
   align-items: center;
   flex-direction: row;
